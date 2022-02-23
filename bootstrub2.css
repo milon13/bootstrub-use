@@ -1,0 +1,169 @@
+
+     /* <!-- Header part  --> */
+
+
+     .header{
+        background: greenyellow;
+    }
+    .header img{
+        height: 70px;
+        width: auto;
+    }
+    .header ul{
+}
+.header li{
+    
+list-style: none;
+    
+cursor: pointer;
+}
+    .header ul li{
+        display: inline-block;
+        margin-left: -4px;
+        margin-bottom: 0;
+        margin-right: -4px;
+    }
+    .header ul li a{
+        text-decoration: none;
+        color: rgb(27, 25, 25);
+        padding: 0px 16px;
+        font-size: 20px;
+        border-right: 1px solid rgb(32, 31, 31);
+        line-height: 66px;
+        transition: .4s;
+        margin-left: 2px;
+    }
+    .header ul li a:hover{
+        background: rgb(57, 61, 61);
+    
+        color: rgb(207, 207, 224);
+    }
+    
+    
+    /* banner part  */
+    .banner {
+        background-image: url(./img/blue-morning-natural-mountains-bamboo_1417-32.jpg);
+        padding: 200px 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .banner h1{
+    background: red;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 19px;
+}
+    .banner h2{
+    display: inherit;
+}
+    .banner h3{
+    font-size: 21px;
+    font-style: oblique;
+}
+    
+    
+     /* about part  */
+     .about{
+         background: rgb(245, 239, 239);
+         padding: 110px 0 ;
+     }
+     .about h2{}
+     .about p{}
+    
+    
+    
+     /* service part  */
+     .service{
+         background: #8f8f8f;
+         padding: 44px 0;
+     }
+     .service span{
+         
+background: aquamarine;
+         
+font-size: 39px;
+         
+display: block;
+         
+width: 100px;
+         
+height: auto;
+         
+margin: auto;
+         
+border-radius: 22px 0;
+         
+margin-top: 40px;
+     }
+     .service  h2{
+    line-height: 84px;
+    }
+     .service p{
+        text-align: unset;
+        padding: 10px 48px;
+    }
+      /* product part  */
+
+      .product{}
+      .product img{
+        height: 173px;
+        width: auto;
+    }
+      .product p{
+        margin-top: 0;
+        font-size: 17px;
+        font-style: italic;
+        text-align: justify;
+      }
+      .product-right{}
+      .product-right ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+      .product-right ul li{
+    background: beige;
+    padding: 11px 50px;
+    border: 1px solid violet;
+    transition: .4s;
+    border-radius: 18px;
+}
+.product-right ul li:hover{
+    background: gray;
+    color: white;
+  
+
+}
+
+/* footer part  */
+.footer{
+    background-color: rgb(36, 32, 32);
+}
+.footer a{
+    color: white;
+    padding: 0px 11px;
+    text-decoration: none;
+    transition: .4s;
+}
+.footer a:hover{
+    background: rgb(197, 76, 197);
+}
+@media(max-width:600px){
+    .header{
+        width: 100%;
+    }
+    .header img{
+        width: 20%;
+    }
+    .header ul{
+ 
+        
+    }
+    .header ul li{
+        wi;
+        float: right;
+        padding: 0 5px;
+    }
+    .header ul li a{}
+}
